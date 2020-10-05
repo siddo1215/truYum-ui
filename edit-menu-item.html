@@ -1,0 +1,70 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style/style_edit.css">
+       
+       <script type="text/javascript" src="js/myjs.js"></script>
+      
+        <title>
+            truYum
+        </title>
+    </head>
+    <body>
+        <div class="tru1">
+            <h1>truYum</h1>
+            <div id="menu-link">
+                <a href="menu-item-list-admin.html">Menu</a>
+            </div>
+        </div>
+        <div>
+           <h1>Edit Menu items</h1> 
+        </div>
+        <form method="POST" onsubmit="return savee()">
+            <div class="div2">Name<br>
+            <input type="text" id="name" width="500" ">
+            <br></div>
+            
+            
+                <ul class="div1">
+                    <li>Price (Rs.) <br>
+            <input type="text" id="price" >
+                   </li>
+
+                    <li> <div> Active <br>
+                <input type="radio" id="activeY" value="Yes">
+               Yes<input type="radio" id="activeN" value="No">No</div>
+            </li>
+
+                    <li>
+                        <div> Date of Launch<br>
+                    <input type="text" id="dateof"></div>
+                </li>
+                    <li>
+                        <div> Category <br>
+                        <select id="category" name="category">
+                            <option value="select">Select</option>
+                            <option value="main">Main Course</option>
+                            <option value="starters">Starters</option>
+                        </select></div></li>
+                        
+                        
+                </ul>
+                <br><br><br><br>
+                        <input type="checkbox" id="check" >Free Delivery
+                        <br><br>
+                        <a href="menu-item-list-admin.html" ><input type="button" value="Save" class="save" onclick="change()"></a>         
+        
+                        
+                    </form>
+        <script>
+        putData();
+        
+        </script>
+        
+    </div>
+    <footer class="foot">
+        Copyright 2019
+    </footer>
+
+    </body>
+</html>

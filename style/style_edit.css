@@ -1,0 +1,59 @@
+.tru1
+{
+    color: white;
+    height: 100px;
+    background-color: blue;
+}
+
+#menu-link
+{
+    float: right;
+    
+}
+.div1{
+    
+}
+
+li{
+    float: left;
+    list-style: none;
+    margin: 15px;
+}
+
+.div2{
+    margin: 40px;
+    width: 100%;
+}
+
+#name
+{
+    width: 80%;
+}
+#check{
+    margin-left: 55px;
+}
+.save{
+    margin-left: 55px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+.foot
+{
+    background-color: gray;
+    height: 40px;
+    width: 100%;
+    position: absolute; bottom: 0px;
+}
+
+.status{
+    margin-left: 55px;
+    color: blue;
+}
+.success{
+    margin-left: 55px;
+    color: green;
+}
+.login{
+    
+}

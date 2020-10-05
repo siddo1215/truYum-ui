@@ -1,0 +1,68 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+       <script type="text/javascript" src="js/myjs.js"></script>
+        <title>
+truYum
+        </title>
+
+    </head>
+    <body>
+<div class="tru">
+    <h1>truYum</h1>
+    <div id="menu-link">    
+        <a href="menu-item-list-admin.html">Menu</a>
+</div>
+</div>
+
+
+
+<div>
+    <h1>Menu Items</h1>
+    <table id="myTable" border="1">
+
+       <tr>
+         <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Active</th>
+        <th>Date of Launch</th>
+        <th>Category</th>
+        <th>Free Delivery</th>
+        <th>Action</th>
+    </tr>
+    <tr >
+        <td id="id1"><script>document.getElementById("id1").innerHTML=  localStorage.getItem("id1");</script></td>
+        <td id="item1"><script>document.getElementById("item1").innerHTML=  localStorage.getItem("item1");</script></td>
+        <td id="pr1"><script>document.getElementById("pr1").innerHTML=  localStorage.getItem("pr1");</script></td>
+        <td id="ac1"><script>document.getElementById("ac1").innerHTML=  localStorage.getItem("ac1");</script></td>
+        <td id="dol1"><script>document.getElementById("dol1").innerHTML=  localStorage.getItem("dol1");</script></td>
+        <td id="cat1"><script>document.getElementById("cat1").innerHTML=  localStorage.getItem("cat1");</script></td>
+        <td id="free1"><script>document.getElementById("free1").innerHTML=  localStorage.getItem("free1");</script></td>
+        <td><a onclick="onAddToCart(this)" href="cart.html">Add to cart</a></td>
+
+    </tr>
+    <tr>
+            <td id="id2"><script>document.getElementById("id2").innerHTML=  localStorage.getItem("id2");</script></td>
+            <td id="item2"><script>document.getElementById("item2").innerHTML=  localStorage.getItem("item2");</script></td>
+            <td id="pr2"><script>document.getElementById("pr2").innerHTML=  localStorage.getItem("pr2");</script></td>
+            <td id="ac2"><script>document.getElementById("ac2").innerHTML=  localStorage.getItem("ac2");</script></td>
+            <td id="dol2"><script>document.getElementById("dol2").innerHTML=  localStorage.getItem("dol2");</script></td>
+            <td id="cat2"><script>document.getElementById("cat2").innerHTML=  localStorage.getItem("cat2");</script></td>
+            <td id="free2"><script>document.getElementById("free2").innerHTML=  localStorage.getItem("free2");</script></td>
+            <td><a onclick="onAddToCart(this)" href="cart.html">Add to cart</a></td>
+    
+        </tr>
+
+        
+   
+    </table>
+</div>
+
+<footer class="foot">
+    Copyright 2019
+</footer>
+
+    </body>
+</html>

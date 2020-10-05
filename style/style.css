@@ -1,0 +1,32 @@
+.tru
+{
+    color: white;
+    height: 100px;
+    background-color: blue;
+}
+
+#menu-link
+{
+    float: right;
+    
+}
+
+
+td,th{
+    text-align:center;
+    padding: 15px;
+    }
+
+.foot
+{
+    background-color: gray;
+    height: 20px;
+    width: 100%;
+    position: absolute; bottom: 0px;
+}
+
+.fadmin
+{
+  color: blueviolet;
+    background-color: aqua;
+}

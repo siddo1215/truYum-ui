@@ -1,0 +1,65 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+        <script type="text/javascript" src="js/myjs.js"></script>
+        <title>
+truYum
+        </title>
+
+    </head>
+    <body>
+<div class="tru">
+    <h1>truYum</h1>
+    <div id="menu-link">    
+        <a href="menu-item-list-admin.html">Menu</a>
+</div>
+</div>
+
+
+<script>
+    var menuList=[{"id":1,"item":"Sandwich","price":99.0,"ac":"yes","date":"23/03/2020","cat":"Main course","delivery":"free"},{"id":1,"item":"Sandwich","price":99.0,"ac":"yes","date":"23/03/2020","cat":"Main course","delivery":"free"}
+,{"id":1,"item":"Sandwich","price":99.0,"ac":"yes","date":"23/03/2020","cat":"Main course","delivery":"free"},
+{"id":1,"item":"Sandwich","price":99.0,"ac":"yes","date":"23/03/2020","cat":"Main course","delivery":"free"},
+{"id":1,"item":"Sandwich","price":99.0,"ac":"yes","date":"23/03/2020","cat":"Main course","delivery":"free"},
+{"id":1,"item":"Sandwich","price":99.0,"ac":"yes","date":"23/03/2020","cat":"Main course","delivery":"free"}]
+        localStorage.setItem("id1", "1");
+        localStorage.setItem("item1", "Sandwich");
+        localStorage.setItem("pr1", "Rs.99.00");
+        localStorage.setItem("ac1", "Yes");
+        localStorage.setItem("dol1", "23/03/2017");
+        localStorage.setItem("cat1", "Main Course");
+        localStorage.setItem("free1", "Yes");
+        
+        localStorage.setItem("id2", "2");
+        localStorage.setItem("item2", "Burger");
+        localStorage.setItem("pr2", "Rs.129.00");
+        localStorage.setItem("ac2", "Yes");
+        localStorage.setItem("dol2", "23/03/2017");
+        localStorage.setItem("cat2", "Main Course");
+        localStorage.setItem("free2", "No");
+
+         localStorage.setItem("a_username", "admin");
+        localStorage.setItem("a_pass", "admin");  
+        localStorage.setItem("c_username", "sidd_15");
+        localStorage.setItem("c_pass", "truyum");
+</script>
+
+<center><a style="margin-left:200px;" id="login"><h1>Admin Login</h1></a></center>
+
+    <div id="fadmin" style=" margin: auto; width: 200px; padding: 10px;">
+    Username<input type="text" id="user"><br><br>
+    Password<input type="password" id="pass"><br><br>
+    <a href="" ><input type="button" value="Login" class="login" onclick="adminLogin()"></a>
+    <a style="float:right;" href="customer_login.html">Customer Login</a>
+    
+    </div>
+
+
+
+<footer class="foot">
+    Copyright 2019
+</footer>
+
+    </body>
+</html>
